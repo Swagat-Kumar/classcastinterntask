@@ -1,0 +1,32 @@
+.trainingBox {
+  margin-top: 1.5em;
+  border-radius: 2em;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 0em 1.5em;
+}
+.trainItems {
+  width: 27%;
+  padding: 1.2em 0em;
+  margin-left: 1em;
+}
+
+h5,
+h6 {
+  color: white;
+}
+.time {
+  background-color: white;
+  color: black;
+  width: 75%;
+  padding: 0em 0.4em;
+  border-radius: 0.5em;
+}
+.temp {
+  color: #ff3333;
+}
+.more {
+  margin-top: 3em;
+  transform: scale(1.2);
+}

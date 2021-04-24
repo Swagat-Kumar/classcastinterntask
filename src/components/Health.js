@@ -5,8 +5,6 @@ import './Health.css';
 const Health = () => {
     const [today, setDate] = React.useState(new Date());
     const time=today.getHours()+':'+today.getMinutes();
-    const bpm=120;
-    const kcal=1.84;
     React.useEffect(()=>{
         const timer=setInterval(()=>{
             setDate(new Date())

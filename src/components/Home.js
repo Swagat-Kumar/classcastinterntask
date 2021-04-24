@@ -21,7 +21,7 @@ import './Home.css';
 import Health from './Health';
 import Training from './Training';
 import Trainers from './Trainers';
-const { Header, Content, Footer, Sider } = Layout;
+const { Header, Content, Sider } = Layout;
 
 const Home = () => {
     return (
